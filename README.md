@@ -32,3 +32,46 @@ The purpose of this project is to apply machine learning techniques to assess dr
 - direction_same: whether the restaurant/cafe/bar is in the same direction as the traveler’s current destination (0,1)
 - direction_opp: whether the restaurant/cafe/bar is in the opposite direction as the user’s current destination (0,1)
 - Accept(Y/N?)- Target column( whether user will accept the coupon or not?)
+
+# Data Cleaning and Preprocessing
+
+- The Column Car have been removed because it has more than 90 % null values
+- Duplicate rows have been removed from the dataset
+- Studied Univariate and Bivariate Analysis on the feature columns and studied the distribution pattern based on various coupons product the target variable is mostly dependent on type of coupon age  income and occupation of the indvidual
+- Used Label Encoding for the categorical Features.
+
+# MultiColinearity
+
+There were no Multicolinearity found among the features.
+
+![image](https://github.com/user-attachments/assets/9b8d8c3c-69c2-4f47-b921-c3c5aa83ce54)
+
+# Machine Learning Models used:
+- Logistic Regression
+- Support Vector Machines (SVM)
+- Random Forest Classifier
+- XGBoost
+- CatBoost
+- LightBGM
+
+# Feature Selection by Random Forest
+
+![image](https://github.com/user-attachments/assets/8e431819-d860-41c1-83a1-5e6a80798954)
+
+
+# ROC Curve
+
+![image](https://github.com/user-attachments/assets/fddf9d28-6a6c-4cba-9efe-1fce065517cd)
+
+SVM and Logistic Regression Model were not performing good for this dataset due to low accuracy rate we are considering only XGBoost, RandomForest, Catboost amd LightBGM.
+
+# Models Performance(Accuracy):
+
+![image](https://github.com/user-attachments/assets/434f4a13-2458-4de4-bce6-4c4f7379e909)
+
+We could see the Performance of the Tree Based Algorithm are better comparing the SVM and Logistic Regression Algorithm and CatBoost have the Highest Accuracy of 74.77%
+
+
+
+
+
