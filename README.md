@@ -61,13 +61,13 @@ There were no Multicolinearity found among the features.
 
 # ROC Curve
 
-![image](https://github.com/user-attachments/assets/fddf9d28-6a6c-4cba-9efe-1fce065517cd)
+ ![image](https://github.com/user-attachments/assets/fddf9d28-6a6c-4cba-9efe-1fce065517cd)
 
 SVM and Logistic Regression Model were not performing good for this dataset due to low accuracy rate we are considering only XGBoost, RandomForest, Catboost amd LightBGM.
 
 # Models Performance(Accuracy):
 
-![image](https://github.com/user-attachments/assets/434f4a13-2458-4de4-bce6-4c4f7379e909)
+ ![image](https://github.com/user-attachments/assets/434f4a13-2458-4de4-bce6-4c4f7379e909)
 
 We could see the Performance of the Tree Based Algorithm are better comparing the SVM and Logistic Regression Algorithm and CatBoost have the Highest Accuracy of 74.77%
 
