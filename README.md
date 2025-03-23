@@ -71,6 +71,10 @@ SVM and Logistic Regression Model were not performing good for this dataset due 
 
 We could see the Performance of the Tree Based Algorithm are better comparing the SVM and Logistic Regression Algorithm and CatBoost have the Highest Accuracy of 74.77%
 
+# Impact:
+
+ This project demonstrates how data-driven decision-making can optimize coupon distribution by aligning offers with customer preferences and behavior, maximizing redemption rates.
+
 
 
 
